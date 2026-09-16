@@ -2,7 +2,7 @@
 
 > # Hibernate ORM 6.6
 
-🏚️ [Home](index.md) 🔸 ⬅️ Previous: [Jakarta Persistence](jpa.md) 🔸 ➡️ Next: [Spring Data JPA](spring-data-jpa.md)
+🏚️ [Home](index.md)
 
 ## Table of Contents
 
@@ -4201,24 +4201,11 @@ Look for N+1 association access, eager to-one mappings, serialization-triggered 
 
 Add an appropriate `@Version` attribute and handle `OptimisticLockException` as a business conflict.
 
-### 60. How should a fresher structure a Hibernate application without Spring?
-
-- Build one factory at application startup.
-- Create one persistence context per service operation.
-- Begin, commit, and roll back transactions in a transaction helper or service boundary.
-- Keep entity mappings in the domain layer.
-- Keep query and persistence operations in focused DAOs or repositories.
-- Put business rules in services and entity behavior.
-- Return DTOs or read models across presentation boundaries.
-- Use environment-based configuration for credentials.
-- Manage the schema with versioned migrations.
-- Test mappings and queries against the real database dialect.
-
 [↑ Go to Table of Contents](#table-of-contents)
 
 ---
 
-🏚️ [Home](index.md) 🔸 ⬅️ Previous: [Jakarta Persistence](jpa.md) 🔸 ➡️ Next: [Spring Data JPA](spring-data-jpa.md)
+🏚️ [Home](index.md) 🔸
 
 <!-- Mermaid rendering support for GitHub Pages/Jekyll. -->
 <script type="module">
